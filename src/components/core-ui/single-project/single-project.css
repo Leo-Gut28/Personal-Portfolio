@@ -56,6 +56,8 @@
 
 .singleProject:hover .project--showcaseBtn a:nth-child(2) {
   transform: translateX(-140px) scale(1.1) !important;
+  color: black;
+  background-color: white;
 }
 
 .singleProject .project--desc {

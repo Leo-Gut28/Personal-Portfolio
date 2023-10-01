@@ -1,5 +1,5 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name is ABU SAID. I'm a web designer and developer based in Dhaka, Bangladesh.",
-    description2: "I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. Love almost all the stacks of Software Engineering. My current stack includes Nodejs, Nestjs, React, NextJs, Redux, Bootstrap, Ant Design, Material UI, MongoDB, Mysql, PostgreSQL, Firebase, Cloudinary, etc.",
+    description1: "I am a junior at Duke University, pursuing a double major in Computer Science and Electrical & Computer Engineering. I'm interested in the applications of both hardware and software in various fields. I have gained practical experience in these areas through past internships and personal projects. My previous internships were primarily in the IoT sector, where I had the opportunity to design, test, and analyze data from multiple devices. As I look ahead, I am actively seeking opportunities in both Electrical Engineering and Software positions for the Summer of 2024.",
+    description2: "When I am not studying or working on projects, you will find me either at the gym or watching sports. I am a huge sports fan. My teams are Real Madrid and the Washington Commanders, and you will always catch me rooting for the Peruvian National Soccer Team whenever they play.",
 }

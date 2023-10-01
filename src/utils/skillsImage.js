@@ -1,4 +1,4 @@
-import adobeXd from '../assets/svg/skills/adobe-xd.svg'
+ import adobeXd from '../assets/svg/skills/adobe-xd.svg'
 import adobeaudition from '../assets/svg/skills/adobeaudition.svg'
 import afterEffects from '../assets/svg/skills/after-effects.svg'
 import angular from '../assets/svg/skills/angular.svg'
@@ -58,7 +58,7 @@ import vue from '../assets/svg/skills/vue.svg'
 import vuetifyjs from '../assets/svg/skills/vuetifyjs.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
-
+import ubuntu from '../assets/png/Ubuntu_Logo.png'
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
 import fastify from '../assets/svg/skills/fastify.svg'
@@ -73,7 +73,16 @@ import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
+
 import canva from '../assets/svg/skills/canva.svg'
+import gnuradio from '../assets/png/GNURadio_Logo.jpeg'
+import Microcontrollers from "../assets/png/Arduino_Logo.jpeg"
+import signal_processing from '../assets/png/Signal_Processing.jpeg'
+import pcb_design from '../assets/png/EagleCAD_Logo.png'
+import autocad from '../assets/png/AutoCAD_Logo.jpeg'
+import solder from '../assets/png/Soldering_Image.webp'
+import onshape from '../assets/png/Onshape_Logo.jpeg'
+import circuit_analysis from '../assets/png/Circuit_Analysis.webp'
 
 
 export const skillsImage = (skill) => {
@@ -107,6 +116,8 @@ export const skillsImage = (skill) => {
             return react;
         case 'svelte':
             return svelte;
+        case 'ubuntu':
+            return ubuntu;
         case 'typescript':
             return typescript;
         case 'vue':
@@ -227,6 +238,22 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'gnuradio':
+            return gnuradio;
+        case 'microcontrollers':
+            return Microcontrollers; 
+        case 'signal processing':
+            return signal_processing;
+        case 'pcb layout':
+            return pcb_design;
+        case 'autocad':
+            return autocad;
+        case 'onshape':
+            return onshape;
+        case 'circuit design & analysis':
+            return circuit_analysis;
+        case 'soldering':
+            return solder;   
         default:
             break;
     }

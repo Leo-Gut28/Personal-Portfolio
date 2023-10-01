@@ -1,0 +1,15 @@
+export const arduinorobotData = {
+    title: "Arduino Robot",
+    description1: "This project was about creating of a versatile robot powered by an Arduino Mega. The robot is designed to tackle an array of tasks, such as color identification, autonomous movement based on shapes, magnetic field detection, and wireless communication with other robots.",
+    description2: "To achieve this, various sensors and motors were added to the robot. The robot employs Servo Motors to facilitate controlled movement, QTI sensors for precise shape-based navigation, an RGB sensor for accurate color identification, and a hall-effect sensor for detecting magnetic fields. Additionally, an LCD display serves as a user-friendly interface for displaying pertinent data and information. On top of that, this project also uses XBee technology, which enables wireless communication between this robot and other robots close by. This allowed the robots to work independently while commuicating. ",
+    sensordiagrams: "Sensor and Diagrams",
+    description3: "QTI Sensor",
+    description4: "To allow the robot move autonomously follwing black lines, two QTI sensors were used. One of these sensors played a crucial role in facilitating forward movement, while the other was responsible for handling turns. When both sensors detected a black line, the robot initiated forward movement. Conversely, if only one sensor registered a black line, it signaled the need for a turn, prompting the servo motors to adjust the robot's direction accordingly.",
+    description5: "RGB Sensor",
+    description6: "An RGB sensor served as the robot's means of color identification. The sensor operated by emitting light and capturing the light's reflection off objects. Using its built-in filters, it analyzed color ratios to determine the precise color of the surface it was on. This color information was then relayed to the robot's LCD display, providing real-time color recognition capabilities.",
+    description7: "I2C LCD Display",
+    description8: "For local user feedback and data presentation, an I2C LCD display was used. This display provided a visual interface that showcased the color the robot was currently positioned on, its metal detection status, and data received from other robots within the network. It served as an essential tool for monitoring and interacting with the robot's operations.",
+    description9: "Hall-Effect Sensor",
+    description10: "The Hall-Effect sensor played an important role in identifying the robot's proximity to a magnet and identifying a magnetic field. Operating through a digital signal, this sensor determined the presence of a magnetic field. When a magnetic field was detected, it generated an output signal of '1', which was subsequently received and processed by the robot. Based on this input, the robot updated its status and displayed relevant information on the LCD Display, making it a key component for magnetic field detection.",
+    backlink: '/projects',
+}

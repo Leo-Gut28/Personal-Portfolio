@@ -1,9 +1,10 @@
+import headshot from "../assets/png/Headshot.png"
 
 export const headerData = {
-    name: 'ABU SAID',
+    name: 'Leonardo Gutierrez',
     title: "Hello! I am",
-    desciption: "Hello! I am ABU SAID, a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. ",
-    image: 'https://i.ibb.co/ZmdNH6x/abu-said.jpg',
+    desciption: "Hi! I'm Leo! A quick learner and a fun-loving enthusiast. I'm always eager to acquire new skills and put them to work in the real world. I'm currently looking for internship opportunities for Summer 2024! If you have any questions, please contact me below!",
+    image: headshot,
     imagebw: 'https://i.ibb.co/Cw2Xp90/abu-said-bw.jpg',
-    resumePdf: 'https://docs.google.com/document/d/1MkkoRX98FS47CaEyeodyPzi4OkW8SH7Gv55f4MQkHV8/edit?usp=sharing'
+    resumePdf: 'https://drive.google.com/file/d/16A9v_RdGP1sQE4ZuOpfeO99xsBO2uMND/view?usp=sharing'
 }

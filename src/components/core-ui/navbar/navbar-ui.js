@@ -1,7 +1,6 @@
 import { Drawer } from '@mui/material';
 import React from 'react';
-import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
-import { FaFolderOpen, FaUser } from 'react-icons/fa';
+import { FaCode, FaGraduationCap, FaSuitcase, FaUser } from 'react-icons/fa';
 import { HiDocumentText } from 'react-icons/hi';
 import { IoClose, IoHomeSharp, IoMenuSharp } from 'react-icons/io5';
 import { MdPhone } from 'react-icons/md';
@@ -96,50 +95,68 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
 
                         <Fade left>
                             <NavLink
-                                to='/#resume'
+                                to='/#experience'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
                             >
                                 <div className={classes.drawerItem}>
-                                    <HiDocumentText
-                                        className={classes.drawerIcon}
-                                    />
+                                    <FaSuitcase
+                                        className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
-                                        Resume
+                                        Experience
                                     </span>
                                 </div>
                             </NavLink>
                         </Fade>
 
                         <Fade left>
-                            <div className={classes.drawerItem} onClick={changeTheme}>
-                                {isDark ?
-                                    <BsFillSunFill className={classes.drawerIcon} />
-                                    :
-                                    <BsFillMoonFill className={classes.drawerIcon} />
-                                }
-                                <span className={classes.drawerLinks}>
-                                    {
-                                        isDark ? "Light" : "Dark"
-                                    }
-                                </span>
-                            </div>
-                        </Fade>
-
-                        <Fade left>
                             <NavLink
-                                to='/#blog'
+                                to='/#skills'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
                             >
                                 <div className={classes.drawerItem}>
-                                    <FaFolderOpen
+                                    <HiDocumentText
+                                        className={classes.drawerIcon} />
+                                    <span className={classes.drawerLinks}>
+                                        Skills
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#projects'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaCode
+                                        className={classes.drawerIcon} />
+                                    <span className={classes.drawerLinks}>
+                                        Projects
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#education'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaGraduationCap
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Blog
+                                        Education
                                     </span>
                                 </div>
                             </NavLink>

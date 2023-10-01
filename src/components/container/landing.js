@@ -57,6 +57,7 @@ const Landing = () => {
 
   return (
     <LandingUI drawerOpen={drawerOpen} theme={theme} classes={classes} />
+
   );
 };
 

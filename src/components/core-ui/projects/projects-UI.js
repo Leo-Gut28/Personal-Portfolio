@@ -11,7 +11,7 @@ function ProjectsUI({ theme, classes }) {
         <>
             {projectsData.length > 0 && (
                 <div className="projects" id="projects" style={{ backgroundColor: theme.secondary }}>
-                    <div className="projects--header">
+                    <div className="projects--header" id="#projects_main">
                         <h1 style={{ color: theme.primary }}>Projects</h1>
                     </div>
                     <div className="projects--body">
