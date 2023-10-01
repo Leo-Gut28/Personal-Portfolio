@@ -1,5 +1,0 @@
-export const aboutData = {
-    title: "Who I am",
-    description1: "I am a junior at Duke University, pursuing a double major in Computer Science and Electrical & Computer Engineering. I'm interested in the applications of both hardware and software in various fields. I have gained practical experience in these areas through past internships and personal projects. My previous internships were primarily in the IoT sector, where I had the opportunity to design, test, and analyze data from multiple devices. As I look ahead, I am actively seeking opportunities in both Electrical Engineering and Software positions for the Summer of 2024.",
-    description2: "When I am not studying or working on projects, you will find me either at the gym or watching sports. I am a huge sports fan. My teams are Real Madrid and the Washington Commanders, and you will always catch me rooting for the Peruvian National Soccer Team whenever they play.",
-}
