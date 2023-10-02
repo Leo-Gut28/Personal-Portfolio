@@ -20,7 +20,7 @@ export const projectsData = [
         projectName: 'PokeRandom',
         projectDesc: 'Kotline project that uses a Pokemon API to display random Pokemons, including a picture, name and the weight of each. This is done using a recycle view.',
         tags: ['Kotlin', 'RestAPI', 'Android Studio', 'UI/UX'],
-        code: 'https://github.com/said7388/jewelry-niche',
+        code: 'https://github.com/Leo-Gut28/PokeRandom_App',
         demo: '/pokerandom',
         image: nine
     },
