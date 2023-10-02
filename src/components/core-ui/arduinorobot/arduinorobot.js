@@ -6,7 +6,7 @@ import hallefect from '../../../assets/png/Hall-Effect_Diagram.png';
 import lcddisplay from '../../../assets/png/Display_Diagram.png';
 import rgbsensor from '../../../assets/png/RGB-Sensor_Diagram.png';
 import { Container } from '@mui/material';
-import { ThemeContext } from '/Users/leo/Documents/Projects/Personal-Portfolio/src/contexts/theme-context';
+import { ThemeContext } from '../../../../src/contexts/theme-context';
 import { arduinorobotData } from '../../../data/arduinorobotData';
 import Arduinorobot from '../../container/arduinorobot_container';
 import { Helmet } from 'react-helmet'
