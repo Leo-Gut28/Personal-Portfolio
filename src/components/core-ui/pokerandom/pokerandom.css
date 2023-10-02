@@ -109,9 +109,16 @@
 
   .about-img > img {
   }
+  .about-animation {
+    max-width: 85%;
+    max-height: 85%;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+  }
 
   .back-button {
-    margin-top: 2%;
+    margin-top: 20px;
   }
 }
 
