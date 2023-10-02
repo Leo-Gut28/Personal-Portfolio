@@ -1,5 +1,3 @@
-import eight from '../assets/svg/projects/eight.svg'
-import seven from '../assets/svg/projects/seven.svg'
 import six from '../assets/png/Robot_Image.png'
 import nine from '../assets/png/pokemonpicture.png'
 import ten from '../assets/png/Portfolio_Image.png'

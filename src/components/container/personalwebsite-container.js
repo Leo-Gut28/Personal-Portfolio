@@ -2,7 +2,6 @@ import { makeStyles } from '@mui/styles';
 import React, { useContext } from 'react';
 import { ThemeContext } from '../../contexts/theme-context';
 import { HashLink as NavLink } from 'react-router-hash-link';
-import PersonalwebsiteUI from '../core-ui/personalwebsite/personalwebsite';
 
 
 const Personalwebsite = ({ to, label, }) => {
