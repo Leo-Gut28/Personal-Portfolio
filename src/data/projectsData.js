@@ -1,6 +1,7 @@
-import six from '../assets/png/Robot_Image.png'
-import nine from '../assets/png/pokemonpicture.png'
-import ten from '../assets/png/Portfolio_Image.png'
+import one from '../assets/png/Robot_Image.png'
+import two from '../assets/png/pokemonpicture.png'
+import three from '../assets/png/Portfolio_Image.png'
+import four from '../assets/png/WeatherIcon.png'
 
 
 export const projectsData = [
@@ -11,7 +12,7 @@ export const projectsData = [
         tags: ['Arduino', 'Microcontrollers', 'Sensors', 'Circuits'],
         code: 'https://github.com/Leo-Gut28/Arduino_Bot',
         demo: '/arduinorobot',
-        image: six
+        image: one
     },
     {
         id: 2,
@@ -20,7 +21,7 @@ export const projectsData = [
         tags: ['Kotlin', 'RestAPI', 'Android Studio', 'UI/UX'],
         code: 'https://github.com/Leo-Gut28/PokeRandom_App',
         demo: '/pokerandom',
-        image: nine
+        image: two
     },
     {
         id: 3,
@@ -29,19 +30,18 @@ export const projectsData = [
         tags: ['React', 'CSS', 'JavaScript', 'Git'],
         code: 'https://github.com/Leo-Gut28/Personal-Portfolio',
         demo: '/personalwebsite',
-        image: ten
+        image: three
     },
-    /*
     {
         id: 4,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: '/#projects',
-        image: eight
+        projectName: 'Weather App',
+        projectDesc: 'This is a starter project that will display the weather of the entered city',
+        tags: ['HTML', 'CSS', 'Kotlin', 'API'],
+        code: 'https://github.com/Leo-Gut28/Weather_App',
+        demo: '/weatherapp',
+        image: four
     },
-*/
+
 
 ]
 

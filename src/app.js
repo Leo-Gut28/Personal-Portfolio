@@ -14,6 +14,7 @@ import Education from './components/core-ui/education/education';
 import ArduinoRobot  from './components/core-ui/arduinorobot/arduinorobot'
 import Pokerandom from './components/core-ui/pokerandom/pokerandom'
 import Personalwebsite from './components/core-ui/personalwebsite/personalwebsite';
+import Weatherapp from './components/core-ui/weatherapp/weatherapp';
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -31,6 +32,7 @@ function App() {
           <Route path='/arduinorobot' element={<ArduinoRobot />} exact />
           <Route path='/pokerandom' element={<Pokerandom />} exact />
           <Route path='/personalwebsite' element={<Personalwebsite />} exact />
+          <Route path='/weatherapp' element={<Weatherapp />} exact />
 
           <Route
             path="*"
