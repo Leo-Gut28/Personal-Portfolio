@@ -9,7 +9,7 @@ export const experienceData = [
         description2: '• Developed LoRa devices by combining commercial components with custom-programmed LoRa-compatible boards, using Python and Arduino coding.',
         description3: '• Collected and analyzed signal attribute data using deployed devices, contributing valuable insights for Machine Learning model refinement.',
         description4: '• Adapted and built upon an existing LoRa project via GNURadio, optimizing SDR ability to accurately demodulate uplink and downlink LoRa signals for enhanced performance.',
-        toolsskills: 'Tools and Skills: Python, C, Git, Microcontrollers, Signal Processing & Analiysis, Linux, GNURadio, LoRa, Arduino'
+        toolsskills: 'Tools and Skills: Python, C, Git, Microcontrollers, Signal Processing & Analysis, Linux, GNURadio, LoRa, Arduino'
     },
     {
         id: 2,
