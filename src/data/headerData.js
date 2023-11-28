@@ -6,5 +6,5 @@ export const headerData = {
     desciption: "Hi! I'm Leo! A quick learner and a fun-loving enthusiast. I'm always eager to acquire new skills and put them to work in the real world. I'm currently looking for internship opportunities for Summer 2024! If you have any questions, please contact me below!",
     image: headshot,
     imagebw: 'https://i.ibb.co/Cw2Xp90/abu-said-bw.jpg',
-    resumePdf: 'https://drive.google.com/file/d/1Bw7ISXQjc0htcD3rEtNfHWPJ1iDZXhcV/view?usp=sharing'
+    resumePdf: 'https://drive.google.com/file/d/15c9PXwMwB3itaUZb67Vs_hMf0Z8LdfR9/view?usp=sharing'
 }
