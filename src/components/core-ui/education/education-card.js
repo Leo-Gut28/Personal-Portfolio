@@ -6,7 +6,7 @@ import eduImgWhite from '../../../assets/svg/education/eduImgWhite.svg';
 import { ThemeContext } from '../../../contexts/theme-context';
 import './education.css';
 
-function EducationCard({ id, institution, course, startYear, endYear, emptySpace, coursework, course1, course2, course3, course4, course5, course6, course7}) {
+function EducationCard({ id, institution, course, startYear, endYear, emptySpace, coursework, course1, course2, course3, course4, course5, course6, course7, coursework1, course8, course9, course10}) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -31,13 +31,18 @@ function EducationCard({ id, institution, course, startYear, endYear, emptySpace
                     <h5 style={{ color: theme.tertiary }}>{emptySpace}</h5>
                     <br /> {/* This <br> tag adds a line break */}
                     <p style={{ color: theme.tertiary, fontSize: '22px'}}>{coursework}</p>
-                    <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course1}</p>
+
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course2}</p>
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course3}</p>
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course4}</p>
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course5}</p>
-                    <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course6}</p>
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course7}</p>
+                    <br /> {/* This <br> tag adds a line break */} 
+                    <p style={{ color: theme.tertiary, fontSize: '22px'}}>{coursework1}</p>
+                    <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course8}</p>
+                    <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course9}</p>
+                    <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course10}</p>
+                    
                     
                 </div>
             </div>
