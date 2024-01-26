@@ -34,6 +34,7 @@ function WeatherappUI() {
                 </div>
                 <div className = "sensors">
                     <div className = "about-description">
+                        <br></br>
                     <h3 style={{ color: theme.primary }}>{weatherappData.sensordiagrams}</h3>
                         <h4 style={{ color: theme.tertiary }}>{weatherappData.description3}</h4>
                         <p style={{ color: theme.tertiary }}>{weatherappData.description4}</p>
