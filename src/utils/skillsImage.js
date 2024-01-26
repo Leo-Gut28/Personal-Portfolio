@@ -83,6 +83,7 @@ import autocad from '../assets/png/AutoCAD_Logo.jpeg'
 import solder from '../assets/png/Soldering_Image.webp'
 import onshape from '../assets/png/Onshape_Logo.jpeg'
 import circuit_analysis from '../assets/png/Circuit_Analysis.webp'
+import flask from '../assets/png/Flask_Logo.png'
 
 
 export const skillsImage = (skill) => {
@@ -250,6 +251,8 @@ export const skillsImage = (skill) => {
             return autocad;
         case 'onshape':
             return onshape;
+        case 'flask':
+            return flask;
         case 'circuit design & analysis':
             return circuit_analysis;
         case 'soldering':

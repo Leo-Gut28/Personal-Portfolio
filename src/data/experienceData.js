@@ -2,7 +2,7 @@ export const experienceData = [
     {
         id: 1,
         company: 'Vectare Inc.',
-        jobtitle: 'Wireless Communication Intern',
+        jobtitle: 'Wireless Communications Engineer Intern',
         startYear: 'May 2023',
         endYear: 'Aug 2023',
         description1: '• Researched and implemented an open-source LoRa network featuring multiple gateways across different frequency ranges to identify devices in various regions.',

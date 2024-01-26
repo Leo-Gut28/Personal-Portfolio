@@ -9,5 +9,7 @@ export const otherData = [
     'AutoCAD',
     'OnShape',
     'Soldering',
+    'Flask',
+    'React'
 ]
 

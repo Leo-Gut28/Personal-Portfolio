@@ -6,7 +6,7 @@ import eduImgWhite from '../../../assets/svg/education/eduImgWhite.svg';
 import { ThemeContext } from '../../../contexts/theme-context';
 import './education.css';
 
-function EducationCard({ id, institution, course, startYear, endYear, emptySpace, coursework, course1, course2, course3, course4, course5, course6, course7, coursework1, course8, course9, course10}) {
+function EducationCard({ id, institution, course, startYear, endYear, emptySpace, coursework, certificate, course2, course3, course4, course5, course6, course7, coursework1, course8, course9, course10}) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -27,6 +27,7 @@ function EducationCard({ id, institution, course, startYear, endYear, emptySpace
                 <div className="education-details">
                     <h6 style={{ color: theme.primary }}>{startYear}-{endYear}</h6>
                     <h4 style={{ color: theme.tertiary, fontSize: '23px' }}>{course}</h4>
+                    <h4 style={{ color: theme.tertiary, fontSize: '23px' }}>{certificate}</h4>
                     <h5 style={{ color: theme.tertiary }}>{institution}</h5>
                     <h5 style={{ color: theme.tertiary }}>{emptySpace}</h5>
                     <br /> {/* This <br> tag adds a line break */}

@@ -5,7 +5,7 @@ export const skillsData = [
     'Python',
     'Kotlin',
     'Matlab',
-    'MySQL'
+    'MySQL',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

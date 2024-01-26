@@ -2,6 +2,7 @@ import one from '../assets/png/Robot_Image.png'
 import two from '../assets/png/pokemonpicture.png'
 import three from '../assets/png/Portfolio_Image.png'
 import four from '../assets/png/WeatherIcon.png'
+import five from '../assets/png/soccer_ball3.avif'
 
 
 export const projectsData = [
@@ -25,12 +26,12 @@ export const projectsData = [
     },
     {
         id: 3,
-        projectName: 'Personal Portfolio',
-        projectDesc: 'Personal Portfolio to display my information in a more visually appealing way than just my resume. Built upon a template found on GitHub. ',
-        tags: ['React', 'CSS', 'JavaScript', 'Git'],
-        code: 'https://github.com/Leo-Gut28/Personal-Portfolio',
-        demo: '/personalwebsite',
-        image: three
+        projectName: 'Soccer Sentiment Analysis',
+        projectDesc: 'Python project that uses several APIs to conduct sentiment analysis. The website was created using Flask.',
+        tags: ['Python', 'RestAPI', 'Flask', 'NLP'],
+        code: 'https://github.com/Leo-Gut28/Soccer_Sentiment_Analysis',
+        demo: '/soccersentiment',
+        image: five
     },
     {
         id: 4,
@@ -40,6 +41,15 @@ export const projectsData = [
         code: 'https://github.com/Leo-Gut28/Weather_App',
         demo: '/weatherapp',
         image: four
+    },
+    {
+        id: 5,
+        projectName: 'Personal Portfolio',
+        projectDesc: 'Personal Portfolio to display my information in a more visually appealing way than just my resume. Built upon a template found on GitHub. ',
+        tags: ['React', 'CSS', 'JavaScript', 'Git'],
+        code: 'https://github.com/Leo-Gut28/Personal-Portfolio',
+        demo: '/personalwebsite',
+        image: three
     },
 
 

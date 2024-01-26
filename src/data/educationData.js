@@ -3,6 +3,7 @@ export const educationData = [
         id: 1,
         institution: 'Duke University',
         course: 'BSE in Electrical and Computer Engineering, BS in Computer Science',
+        certificate: 'Certificate: Innovation and Entrepreneurship',
         startYear: 'Aug 2021',
         endYear: 'May 2025 (Expected)',
         emptySpace: ' ',
