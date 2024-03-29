@@ -1,14 +1,17 @@
 # Developer Portfolio
 
-### Want to create a professional portfolio but cannot figure out how to? Use Developer Portfolio and create your own personalised portfolio today! our easily customisable, user friendly website is designed to cater to developers and freelancers a like.
+### This is my personal portfolio/resume. It outlines my education, skills, as well as some of the projects I've worked on.
 
 ---
 
-# Demo :movie_camera:
+# Website Preview
 
-![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yg7pbgnih9nziulfu3u9.gif)
-
-## View live demo [here](https://abusaid.netlify.app/).
+<p align="center"> 
+  <kbd>
+    <a href="https://leonardo-gutierrez.tech/" target="_blank"><img src="src/assets/png/website_review.gif">
+  </a>
+  </kbd>
+</p>
 
 ---
 
