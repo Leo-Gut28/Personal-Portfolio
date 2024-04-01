@@ -14,7 +14,7 @@ export const experienceData = [
     {
         id: 2,
         company: 'Vectare Inc.',
-        jobtitle: 'R&D Engineer Intern',
+        jobtitle: 'R&D Intern',
         startYear: 'May 2022',
         endYear: 'Aug 2022',
         description1: '• Designed and implemented a Man In the Middle (MITM) attack method for Bluetooth Low Energy, to develop anti-breach software',
