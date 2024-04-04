@@ -8,7 +8,7 @@
 
 <p align="center"> 
   <kbd>
-    <a href="https://leonardo-gutierrez.tech/" target="_blank"><img src="src/assets/png/website_review.gif">
+    <a href="https://leonardo-gutierrez.tech/" target="_blank"><img src="src/assets/png/Website_Preview.png">
   </a>
   </kbd>
 </p>
