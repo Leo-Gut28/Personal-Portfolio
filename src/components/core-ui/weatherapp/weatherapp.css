@@ -107,8 +107,6 @@
     font-size: 0.8rem;
   }
 
-  .weatherapp-img > img {
-  }
   .weatherapp-animation {
     max-width: 85%;
     max-height: 85%;
@@ -151,9 +149,6 @@
     font-size: 1.1rem;
   }
 
-  .weatherapp-img > img {
- 
-  }
   
   .back-button {
     padding-top: 2rem;
@@ -207,8 +202,6 @@
     font-size: 0.95rem;
   }
 
-  .weatherapp-img > img {
-  }
   .back-button {
     padding-top: 2rem;
     display: flex;
