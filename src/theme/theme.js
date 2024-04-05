@@ -9,7 +9,8 @@ export const theLightTheme = {
     secondary: '#ffffff',
     tertiary: '#0f1419',
     buttonColor: '#0F1419',
-    contactsimg: contactsImage
+    contactsimg: contactsImage,
+    transparent: 'transparent' // Add the transparent option
 }
 
 export const theDarkTheme = {

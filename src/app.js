@@ -16,12 +16,13 @@ import Pokerandom from './components/core-ui/pokerandom/pokerandom'
 import Personalwebsite from './components/core-ui/personalwebsite/personalwebsite';
 import Weatherapp from './components/core-ui/weatherapp/weatherapp';
 import SoccerSentiment from './components/core-ui/soccersentiment/soccersentiment';
+import LiveDemo from './components/core-ui/weatherlivedemo/livedemo';
 
 function App() {
   const { theme } = useContext(ThemeContext);
   
   return (
-    <div style={{ backgroundColor: theme.secondary }}>
+    <div style={{ backgroundColor: theme.transparent }}>
       <Router>
         <ScrollToTop />
         <Routes>
@@ -35,7 +36,7 @@ function App() {
           <Route path='/personalwebsite' element={<Personalwebsite />} exact />
           <Route path='/weatherapp' element={<Weatherapp />} exact />
           <Route path='/soccersentiment' element={<SoccerSentiment />} exact />
-
+          <Route path='/livedemo' element={<LiveDemo />} exact />
           <Route
             path="*"
             element={<Navigate to="/" replace />}
