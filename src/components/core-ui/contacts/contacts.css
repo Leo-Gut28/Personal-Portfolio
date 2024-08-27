@@ -5,6 +5,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
+  margin-top: 100px;
 }
 
 .contacts--img {
@@ -135,7 +136,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
+  width: 140%;
   margin-bottom: 2.5rem;
 }
 
@@ -169,7 +170,7 @@
 
   .contacts--container {
     padding: 2rem 4rem;
-    width: 90%;
+    width: 100%;
     margin-top: 1rem;
   }
 }

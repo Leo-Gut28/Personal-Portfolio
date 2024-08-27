@@ -37,7 +37,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  height: 420px;
+  height: 500px;
   padding: 1.5rem;
   border-radius: 20px;
   margin-bottom: 1.5rem;
@@ -82,12 +82,7 @@
   font-weight: 600;
 }
 
-.education-image {
-}
 
-.education-image>img {
-
-}
 
 @media (min-width: 992px) and (max-width: 1380px) {}
 
@@ -140,14 +135,6 @@
     padding: 1rem;
     margin-bottom: 1.5rem;
     height: 100%;
-  }
-
-  .educard-img {
-  
-  }
-
-  .educard-img>img {
-   
   }
 
   .education-details>h6 {

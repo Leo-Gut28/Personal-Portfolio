@@ -2,7 +2,7 @@ import { Container } from '@mui/material';
 import React, { useContext } from 'react';
 import { ThemeContext } from '../../../contexts/theme-context';
 import { aboutData } from '../../../data/aboutData';
-import goodpicture from '../../../assets/png/Experience_Image.png';
+import leopicture from '../../../assets/png/leopicture.png'
 import './about.css';
 
 function About() {
@@ -20,10 +20,11 @@ function About() {
                     <div className="about-description">
                         <br></br>
                         <h2 style={{ color: theme.primary }}>{aboutData.title}</h2>
-                        <p style={{ color: theme.tertiary }}>{aboutData.description1}<br /><br />{aboutData.description2}</p>
+                        <p style={{ color: theme.tertiary }}>{aboutData.description1}<br /><br/>{aboutData.description2}
+                        <br /><br/>{aboutData.description3}</p>
                     </div>
                     <div className="about-animation">
-                    <img src={goodpicture} alt="" width="350" height="350"/>
+                    <img src={leopicture} alt="" width="350" height="450"/>
                     </div>
                 </div>
             </Container>

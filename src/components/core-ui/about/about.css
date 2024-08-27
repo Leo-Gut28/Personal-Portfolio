@@ -75,8 +75,6 @@
     font-size: 1.15rem;
   }
 
-  .about-img > img {
-  }
 }
 
 @media screen and (max-width: 992px) {
@@ -107,9 +105,6 @@
     font-size: 1.1rem;
   }
 
-  .about-img > img {
- 
-  }
 }
 
 @media screen and (max-width: 800px) {
@@ -143,6 +138,4 @@
     font-size: 0.95rem;
   }
 
-  .about-img > img {
-  }
 }

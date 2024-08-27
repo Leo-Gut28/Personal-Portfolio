@@ -10,6 +10,9 @@ export const otherData = [
     'OnShape',
     'Soldering',
     'Flask',
-    'React'
+    'React',
+    'Android',
+    'WiFi',
+    'ROS2'
 ]
 

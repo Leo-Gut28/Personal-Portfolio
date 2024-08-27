@@ -15,9 +15,11 @@ export const educationData = [
         course5: '• Microelectronic Devices and Circuits',
         course6: '• Field and Waves',
         course7: '• Operating Systems',
-        coursework1: 'Current Coursework:',
         course8: '• Digital Systems',
         course9: '• Web Development',
         course10: '• Design/Analysis of Algorithms',
+        coursework1: 'Current Coursework:',
+        course11: '• Embedded Systems',
+        course12: '• Computer Network Architecture'
     },
 ]

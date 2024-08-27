@@ -35,10 +35,13 @@ function Education() {
                                 course5={edu.course5}
                                 course6={edu.course6}
                                 course7={edu.course7}
-                                coursework1={edu.coursework1}
                                 course8={edu.course8}
                                 course9={edu.course9}
                                 course10={edu.course10}
+                                coursework1={edu.coursework1}
+                                course11={edu.course11}
+                                course12={edu.course12}
+                                course13={edu.course13}
                                 
                             />
                         ))}

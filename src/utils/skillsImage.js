@@ -84,6 +84,9 @@ import solder from '../assets/png/Soldering_Image.webp'
 import onshape from '../assets/png/Onshape_Logo.jpeg'
 import circuit_analysis from '../assets/png/Circuit_Analysis.webp'
 import flask from '../assets/png/Flask_Logo.png'
+import android from '../assets/png/android.png'
+import wifi from '../assets/png/wifi.webp'
+import ros2 from '../assets/png/ros2.webp'
 
 
 export const skillsImage = (skill) => {
@@ -257,6 +260,12 @@ export const skillsImage = (skill) => {
             return circuit_analysis;
         case 'soldering':
             return solder;   
+        case 'android':
+            return android;
+        case 'wifi':
+            return wifi;
+        case 'ros2':
+            return ros2;
         default:
             break;
     }

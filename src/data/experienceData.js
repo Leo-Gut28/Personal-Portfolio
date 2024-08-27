@@ -1,6 +1,18 @@
 export const experienceData = [
     {
         id: 1,
+        company: 'Google',
+        jobtitle: 'Hardware Engineer Intern, Pixel WiFi',
+        startYear: 'May 2024',
+        endYear: 'Aug 2024',
+        description1: '• Developed an automated tool leveraging robotics, WiFi tests, and WiFi indoor positioning advancements (802.11az/802.11mc) to characterize Pixel WiFi performance in indoor environments',
+        description2: '• Designed and implemented a system for simultaneous WiFi performance measurements across multiple devices, enabling comprehensive comparison of Pixel against competitors',
+        description3: '• Generated detailed performance maps and visual analytics to identify patterns and areas of underperformance, informing targeted improvements to Pixel’s WiFi capabilities',
+        description4: '• Evaluated the impact of various device and cellular tuning configurations on WiFi performance to identify areas for optimization',
+        toolsskills: 'Tools and Skills: Python, Git, Linux, Android, WiFi, Networking, ROS2'
+    },
+    {
+        id: 2,
         company: 'Vectare Inc.',
         jobtitle: 'Wireless Communications Engineer Intern',
         startYear: 'May 2023',
@@ -12,7 +24,7 @@ export const experienceData = [
         toolsskills: 'Tools and Skills: Python, C, Git, Microcontrollers, Signal Processing & Analysis, Linux, GNURadio, LoRa, Arduino'
     },
     {
-        id: 2,
+        id: 3,
         company: 'Vectare Inc.',
         jobtitle: 'R&D Intern',
         startYear: 'May 2022',
