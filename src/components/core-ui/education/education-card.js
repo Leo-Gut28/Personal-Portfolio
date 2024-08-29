@@ -37,11 +37,8 @@ function EducationCard({ id, institution, course, startYear, endYear, emptySpace
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course2}</p>
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course3}</p>
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course4}</p>
-                    <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course5}</p>
-                    <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course6}</p>
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course7}</p>
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course8}</p>
-                    <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course9}</p>
                     <p style={{ color: theme.tertiary, fontSize: '20px', textIndent: '20px' }}>{course10}</p>
                     <br /> {/* This <br> tag adds a line break */} 
                     <p style={{ color: theme.tertiary, fontSize: '22px'}}>{coursework1}</p>

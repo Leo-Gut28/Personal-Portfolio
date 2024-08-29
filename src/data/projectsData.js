@@ -3,6 +3,7 @@ import two from '../assets/png/pokemonpicture.png'
 import three from '../assets/png/Portfolio_Image.png'
 import four from '../assets/png/WeatherIcon.png'
 import five from '../assets/png/soccer_ball3.avif'
+import six from '../assets/png/elevator.webp'
 
 
 export const projectsData = [
@@ -44,6 +45,15 @@ export const projectsData = [
     },
     {
         id: 5,
+        projectName: 'Mini Elevator',
+        projectDesc: 'The project aimed to design and implement a miniature multi-story elevator system using a FPGA and several hardware components. ',
+        tags: ['MIPS', 'FPGA', 'Circuits', 'Soldering'],
+        code: 'https://github.com/Leo-Gut28/ECE350_Final_Project',
+        demo: '/minielevator',
+        image: six
+    },
+    {
+        id: 6,
         projectName: 'Personal Portfolio',
         projectDesc: 'Personal Portfolio to display my information in a more visually appealing way than just my resume. Built upon a template found on GitHub. ',
         tags: ['React', 'CSS', 'JavaScript', 'Git'],
@@ -51,6 +61,8 @@ export const projectsData = [
         demo: '/personalwebsite',
         image: three
     },
+    
+    
 
 
 ]

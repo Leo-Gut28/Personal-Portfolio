@@ -41,13 +41,13 @@ function PokerandomUI() {
                     <h3 style={{ color: theme.primary }}>{pokerandomData.sensordiagrams}</h3>
                         <h4 style={{ color: theme.tertiary }}>{pokerandomData.description3}</h4>
                         <p style={{ color: theme.tertiary }}>{pokerandomData.description4}</p>
-                        <div className="about-animation">
+                        <div className="about-animation-center">
                             <img src={pokepart1} alt="" width="400" height="600"/>
                         </div>
                         <br /><br />
                         <h4 style={{ color: theme.tertiary }}>{pokerandomData.description5}</h4>
                         <p style={{ color: theme.tertiary }}>{pokerandomData.description6}</p>
-                        <div className="about-animation">
+                        <div className="about-animation-center">
                             <img src={pokepart2} alt="" width="400" height="600"/>
                         </div>
                         <br /><br />

@@ -44,19 +44,19 @@ function ArduinorobotUI() {
                         <br /><br />
                         <h4 style={{ color: theme.tertiary }}>{arduinorobotData.description5}</h4>
                         <p style={{ color: theme.tertiary }}>{arduinorobotData.description6}</p>
-                        <div className="about-animation">
+                        <div className="about-animation-center">
                             <img src={rgbsensor} alt="" width="400" height="400"/>
                         </div>
                         <br /><br />
                         <h4 style={{ color: theme.tertiary }}>{arduinorobotData.description7}</h4>
                         <p style={{ color: theme.tertiary }}>{arduinorobotData.description8}</p>
-                        <div className="about-animation">
+                        <div className="about-animation-center">
                             <img src={lcddisplay} alt="" width="400" height="400"/>
                         </div>
                         <br /><br />
                         <h4 style={{ color: theme.tertiary }}>{arduinorobotData.description9}</h4>
                         <p style={{ color: theme.tertiary }}>{arduinorobotData.description10}</p>
-                        <div className="about-animation">
+                        <div className="about-animation-center">
                             <img src={hallefect} alt="" width="400" height="400"/>
                         </div>
 

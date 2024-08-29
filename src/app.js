@@ -17,6 +17,7 @@ import Personalwebsite from './components/core-ui/personalwebsite/personalwebsit
 import Weatherapp from './components/core-ui/weatherapp/weatherapp';
 import SoccerSentiment from './components/core-ui/soccersentiment/soccersentiment';
 import LiveDemo from './components/core-ui/weatherlivedemo/livedemo';
+import ECE350Project from './components/core-ui/ece350project/ece350project';
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -37,6 +38,7 @@ function App() {
           <Route path='/weatherapp' element={<Weatherapp />} exact />
           <Route path='/soccersentiment' element={<SoccerSentiment />} exact />
           <Route path='/livedemo' element={<LiveDemo />} exact />
+          <Route path='/minielevator' element={<ECE350Project />} exact />
           <Route
             path="*"
             element={<Navigate to="/" replace />}

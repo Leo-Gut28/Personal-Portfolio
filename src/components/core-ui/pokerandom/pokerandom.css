@@ -69,6 +69,15 @@
   justify-content: center;
 }
 
+.about-animation-center {
+  margin-top: 15px;
+  margin-left: 400px;
+  margin-bottom: 15px;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+}
+
 .lcr-buttonContainer {
   margin-top: 2rem;
   width: 350px;
@@ -107,8 +116,6 @@
     font-size: 0.8rem;
   }
 
-  .about-img > img {
-  }
   .about-animation {
     max-width: 85%;
     max-height: 85%;
@@ -149,10 +156,6 @@
 
   .about-description > p {
     font-size: 1.1rem;
-  }
-
-  .about-img > img {
- 
   }
   
   .back-button {
@@ -207,8 +210,7 @@
     font-size: 0.95rem;
   }
 
-  .about-img > img {
-  }
+
   .back-button {
     padding-top: 2rem;
     display: flex;
