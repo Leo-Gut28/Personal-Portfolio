@@ -1,4 +1,4 @@
-import headshot from "../assets/png/Headshot.png"
+import headshot from "../assets/png/leo_headshot.jpg"
 
 export const headerData = {
     name: 'Leonardo Gutierrez',
